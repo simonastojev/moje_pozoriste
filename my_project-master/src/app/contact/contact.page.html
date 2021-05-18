@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/performances"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Kontakt</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form>
+    <div class="field">
+      <input type="text" name="name" class="input" placeholder="Ime i prezime">
+    </div>
+    <div class="field">
+      <input type="email" name="email" class="input" placeholder="Vaša e-mail adresa">
+    </div>
+    <div class="field">
+      <textarea class="textarea" name="message" placeholder="Napišite nešto..."></textarea>
+    </div>
+    <button type="submit" class="button is-danger is-large">Submit</button>
+  </form>
+  <ion-buttons class="ion-justify-content-right">
+    <ion-button routerLink="/performances" color="tertiary" fill="solid">
+      Predstave
+    </ion-button>
+    <ion-icon name="logo-whatsapp"></ion-icon>
+    <a href="https://www.whatsapp.com/">Broj telefona (WhatsApp, Viber): 062 032-33</a>
+    <ion-item>Adresa: Ilije Garašanina 48, Beograd</ion-item>
+    <ion-icon name="mail-outline">E-mail</ion-icon>
+    <a href="https://mail.google.com/mail/u/0/#compose">mojepozoriste@gmail.com</a>
+    <ion-icon name="logo-instagram">Instagram</ion-icon>
+    <a href="https://www.instagram.com/moje_pozoriste_bgd/">@moje_pozoriste_bgd</a>
+  </ion-buttons>
+</ion-content>
